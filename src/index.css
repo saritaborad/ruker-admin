@@ -1,0 +1,33 @@
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  /* font-family: "Roboto !important", "sans-serif"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-medium";
+  src: url("./assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* input wrapper padding removed */
+.transition-colors{
+  padding: 0px;
+}

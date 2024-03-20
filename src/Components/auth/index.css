@@ -1,0 +1,33 @@
+/* QR code height handled for Two_Factor_Authentication Page */
+.two-factor-qr{
+    width:auto !important;
+    height:140px !important;
+ 
+}
+@media (max-width:1439px){
+    .two-factor-qr{
+            width:auto !important;
+            height:140px !important;
+         
+    }
+
+}
+
+@media (max-width:1280px){
+    .two-factor-qr{
+            width:auto !important;
+            height:110px !important;
+         
+    }
+
+}
+
+@media (max-width:1024px){
+    .two-factor-qr{
+            width:auto !important;
+            height:110px !important;
+         
+    }
+
+}
+

@@ -1,0 +1,62 @@
+// {
+//   "compilerOptions": {
+//     "types": ["node"],
+//     "baseUrl": "./",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     },
+//     "skipLibCheck": true,
+//     "allowSyntheticDefaultImports": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     // "baseUrl": "src",
+//     // "target": "es6",
+//     "jsx": "react",
+//     "allowJs": true,
+//     "rootDir": "./src",
+//     "strict": true,
+//     "outDir": "target",
+//     "esModuleInterop": true
+//   },
+//   "lib": ["DOM", "DOM.Iterable", "ESNext"],
+//   "include": ["/src","src/**/*", "src/routes/path.tsx"]
+// }
+{
+  "compilerOptions": {
+        "types": ["node"],
+      "target": "es6",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "checkJs": false,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react",
+      "baseUrl": "./",
+      "paths": {
+        "~/*": ["./src/*"],
+        "crypto": [
+          "node_modules/crypto-browserify"
+        ],
+        "stream": [
+          "node_modules/stream-browserify"
+        ]
+      },
+      
+  },
+ 
+  "include": ["src","src/**/*.ts","src/**/*.tsx","src/**/*.js"],
+  "exclude": ["node_modules"]
+}

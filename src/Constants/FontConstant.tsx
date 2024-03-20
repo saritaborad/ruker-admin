@@ -1,0 +1,23 @@
+export const fontConst=  {
+  FONTSIZE_14: "14px",
+  FONTSIZE_16: "16px",
+  FONTSIZE_18: "18px",
+  FONTSIZE_20: "20px",
+  FONTSIZE_24: "24px",
+  FONTSIZE_12:"12px",
+  FONTSIZE_30:"30px",
+  FONTSIZE_32:"32px",
+  FONTSIZE_36: "36px",
+  FONTSIZE_40: "40px",
+  FONTSIZE_48: "48px",
+  FONTSIZE_64: "64PX",
+  FONTSIZE_80: "80px",
+
+  FONTWEIGHT_400: 400,
+  FONTWEIGHT_500: 500,
+  FONTWEIGHT_700: 700,
+
+  FONTWEIGHT_600: 600,
+  FONTWEIGHT_900: 900,
+};
+export default fontConst
